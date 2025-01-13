@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TKJ 7</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link
+      href="fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900"
+      ;
+      rel="stylesheet"
+      type="text/html"
+    /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+  </head>
+  <body>
+    <nav class="justify-center md:justify-between">
+      <h1 class="choirul">Kelompok 5</h1>
+      <ul class="hidden md:flex">
+        <li><a href="#about-me">About Us</a></li>
+        <li><a href="#latest-work">Material</a></li>
+        <li><a href="#contact">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="containerHero" data-aos="fade-up">
+      <div class="containerImage">
+        <!-- gambar -->
+        <img src="/assets/524de15ea394c7a64ec9180975b0f4fb.jpg" />
+      </div>
+      <div class="containerTextHero">
+        <!-- text -->
+        <h2>Welcome , </h2>
+        <h2 class="title">to our website!</h2>
+        <p class="subtitle">Hi, we made this website for Assigments :D</p>
+      </div>
+    </div>
+
+    <!-- about us  -->
+  <section id="about-me">
+    <div
+      data-aos="fade-up"
+      class="flex px-8 py-16 lg:px-[133px] flex-col lg:flex-row gap-24 justify-center items-center"
+      >
+      <img src="/assets/524de15ea394c7a64ec9180975b0f4fb.jpg" class="w-full h-auto lg:w-96 lg:h-96" />
+      <div class="flex flex-col">
+        <h2 class="text-5xl font-bold mb-6">About Us </h2>
+        <div class="flex flex-col gap-4 justify-center items-center">
+          <p class="text-base text-[#4B5563]" style="text-align: justify;">
+            We are a passionate and dedicated group of Computer and Network Engineering (CNE) students, 
+            striving to excel in the IT field. Our team specializes in local network administration,
+            computer maintenance, and system troubleshooting.
+            With a strong foundation in network design, hardware setup, and software management, we aim 
+            to develop innovative solutions that meet the demands of today's technology-driven world. Collaboration
+            and hands-on experience are the core principles of our group, enabling us to enhance our technical skills and
+            problem-solving abilities. Together, we aspire to contribute to the IT industry by continuously learning, 
+            adapting, and delivering reliable and efficient technological solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section
+  class="flex flex-col pt-16 px-6 lg:px-16 lg:px-[133px] justify-center items-center"
+>
+  <h2 class="text-3xl font-bold mb-4 md:mb-12 md:text-5xl">
+    Material
+  </h2>
+  <div data-aos="fade-up"
+    data-aos duration="7000"
+    class="w-full px-4 md:px-10 flex flex-col gap-y-4 md:gap-y-8 justify-between items-center"
+  >
+    <div
+      class="flex flex-col gap-y-4 md:flex-row md:gap-x-8 md:gap-8 lg:gap-16"
+    >
+      <div class="flex flex-col w-full gap-y-2 md:w-1/3" id="material">
+        <img src="./assets/pemasarann.jpg" />
+        <p class="font-bold text-gray-700 md:text-[24px]">Pemasaran Produk</p>
+        <p class="md:text-[20px]">Learn about effective product marketing strategies.</p>
+        <a href="https://drive.google.com/uc?export=download&id=1nnFj9v0pzB_nJcfi7hy4FXsbL9ztBJZ5
+        " target="_blank">
+                <button>Download Material</button>
+            </a>
+      </div>
+      <div class="flex flex-col w-full gap-y-2 md:w-1/3" id="material">
+        <img src="./assets/str.jpg" />
+        <p class="font-bold text-gray-700 md:text-[24px]">Strategi Distribusi</p>
+        <p class="md:text-[20px]">Understand distribution strategies for better product reach.</p>
+        <a href="https://drive.google.com/uc?export=download&id=1nGxFEmcQX_B_slsw2-0oJdQnbIaSNqHZ
+" target="_blank">
+                <button>Download Material</button>
+            </a>
+      </div>
+      <div class="flex flex-col w-full gap-y-2 md:w-1/3" id="material">
+        <img src="./assets/digitall.jpg" />
+        <p class="font-bold text-gray-700 md:text-[24px]">Strategi Pemasaran Digital</p>
+        <p class="md:text-[20px]">Explore digital marketing strategies to grow your business.</p>
+        <a href="https://drive.google.com/uc?export=download&id=17pA2q-EMMumQcXb4uEk7ADxdzBGWa80K
+" target="_blank">
+                <button>Download Material</button>
+            </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="contact"
+      data-aos="fade-up"
+      class="w-full pt-16 px-6 lg:px-[133px] lg:px-16 flex flex-col md:flex-row md:justify-between md:items-start"
+    >
+      <div class="md:w-1/2">
+        <h2 class="text-3xl font-bold mb-4 lg:mb-12 md:text-5xl">
+          Contact us!
+        </h2>
+        <p class="">
+          Do you have great idea and want to share. Let’s make something amazing
+          together!
+        </p>
+      </div>
+      <div class="py-4 md:py-0 md:w-1/2">
+        <form class="flex flex-col gap-4">
+          <div class="flex flex-col">
+            <label for="fname">Your Name:</label>
+            <input
+              placeholder="For Example"
+              class="border border-gray-400 p-2 rounded-md"
+              type="text"
+              id="fname"
+              name="fname"
+            />
+          </div>
+          <div class="flex flex-col">
+            <label for="email">Email:</label>
+            <input
+              placeholder="forexample@gmail.com"
+              class="border border-gray-400 p-2 rounded-md"
+              type="email"
+              id="email"
+              name="email"
+            />
+          </div>
+          <div class="flex flex-col">
+            <label for="help">What Can I Help?:</label>
+            <input
+              placeholder="I need your help to build my web..."
+              class="border border-gray-400 p-2 rounded-md"
+              type="text"
+              id="help"
+              name="help"
+            />
+          </div>
+
+          <button
+            type="submit"
+            class="bg-blue-700 rounded-md text-white py-2 md:w-[200px] md:self-end"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section
+      data-aos="fade-up"
+      class="w-full flex flex-col py-16 px-4 text-center gap-y-4 md:max-w-[360px] md:mx-auto"
+    >
+      <h2 class="text-3xl font-bold md:text-5xl">Thank You</h2>
+      <p class="text-balance md:max-w-[400px] md:mx-auto">
+        Do you have great idea and want to share. Let’s make something amazing
+        together
+      </p>
+      <div class="flex flex-col md:flex-row gap-2 mx-auto w-full">
+        <button class="bg-blue-700 px-4 w-full md:w-1/2 py-2 rounded-xl">
+            <a href="https://www.instagram.com/choirulllanammm/" target="_blank">
+            <div class="flex flex-row gap-x-2 justify-center items-center">
+              <img src="./assets/ic-instagram.png" class="w-[16px] h-[16px]" />
+              <p class="text-white">Instagram</p>
+            </div>
+          </a>
+          </button>
+        <button class="bg-blue-700 px-4 w-full md:w-1/2 py-2 rounded-xl">
+          <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=mhchoirul.anam@gmail.com" target="_blank">
+          <div class="flex flex-row gap-x-2 justify-center items-center">
+            <img src="./assets/ic-mail.png" class="w-[18px] h-[16px]" />
+            <p class="text-white">Email</p>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <footer class="bg-blue-800 px-4 py-12 md:py-32 md:px-16 lg:px-[133px]">
+      <div class="flex flex-col">
+        <div
+          class="flex flex-col md:flex-row md:justify-between md:items-center"
+        >
+          <h2 class="text-white text-2xl font-bold">Kelompok 5</h2>
+          <div
+            class="text-white flex flex-col md:flex-row md:justify-around gap-4 mt-4 md:mt-0"
+          >
+            <p><a href="#about-me">About Us</a></p>
+            <p><a href="#latest-work">Material</a></p>
+            <p><a href="#contact">Contacts</a></p>
+          </div>
+        </div>
+        <div class="w-full bg-white rounded-md h-[1px] my-4"></div>
+        <div
+          class="flex flex-col md:flex-row md:justify-between md:items-center"
+        >
+          <div class="flex flex-row gap-4">
+            <img src="./assets/ic-instagram.png" class="w-[16px] h-[16px]" />
+            <img src="./assets/ic-mail.png" class="w-[18px] h-[16px]" />
+          </div>
+          <p class="text-white text-xs mt-4 md:mt-0">
+            Copyright Choirul Anam. 2024
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
+</html>
